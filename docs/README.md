@@ -10,4 +10,4 @@ As a language, Scorch is not designed to be speedy to use, rather easy to pick u
 
 Below, find current documentation and examples of the Scorch language. For tutorials and more in depth walkthroughs to get started in different DAWs and get composing, check out [this](www.google.com).
 
-Any questions contact [BeeSting](www.beesting.xyz).
+Any questions contact [BeeSting](https://beesting.xyz/).
