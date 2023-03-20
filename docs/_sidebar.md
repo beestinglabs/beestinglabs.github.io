@@ -7,3 +7,4 @@
 * [Lists](lists.md)
 * [From](from.md)
 * [Functions](functions.md)
+* [Startup](startup.md)
