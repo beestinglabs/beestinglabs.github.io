@@ -12,3 +12,12 @@ Notes can be written in either:
 `A4, G#5, Cb7, c8, C2`
 
 - Midi number, between 0 and 127.
+
+# Code in Context
+
+```
+rest for 2 beats
+play note c4 for 1 second
+rest for 4/8 seconds
+play note c6 for 1 beat
+```

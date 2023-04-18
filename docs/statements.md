@@ -74,3 +74,25 @@ Set a given midi continuous control value to a given value between 0 and 127.
 Set the midi output channel to given value.
 
 `Set midi channel to 2`
+
+# Code in Context
+
+```
+say "Here we go"
+
+play random note between c4 and c5 for 1 beat
+rest for 1/2 beat
+
+repeat random number between 12 and 16 times
+block
+    say count
+    play note c4 c5 c6 for 1 beat
+    set cc 1 to 127 
+    rest for 1/2 beat
+    play note c4 e4 for 1 beat
+    rest for 1/2 beat
+    set cc 1 to 1
+end block
+
+
+```

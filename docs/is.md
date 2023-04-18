@@ -53,3 +53,32 @@ Block
 Say ”last 2 were false. So this will be read!”
 End block
 ```
+
+
+## Code in Context
+```
+variable numberToCheck is 0
+
+repeat 16 times
+block
+    variable numberToCheck is random number between 0 and 16
+    say "numberToCheck: "
+    say numberToCheck
+    Is numberToCheck less than 4?
+    Block
+        play note e6 for 1/4 beat
+        Say "is less than 2"
+    end block
+    Or is numberToCheck more than 12?
+    Block
+        play note a7 for 1/4 beat
+        say "more than 5"
+    end block
+    Otherwise
+    Block
+        play note d5 for 1/4 beat
+        say "otherwise"
+    end block
+    rest for 1/4 beat
+end block
+```
